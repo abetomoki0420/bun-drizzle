@@ -1,4 +1,4 @@
-# bun-drizzle
+# bun-drizzle-demo
 
 To install dependencies:
 
@@ -6,10 +6,20 @@ To install dependencies:
 bun install
 ```
 
+To create SQLite file:
+
+```bash
+touch sqlite.db
+```
+
+To execute migration:
+```bash
+bun run src/db/migrate.ts
+```
+
 To run:
 
 ```bash
-bun run index.ts
+bun run main.ts
 ```
 
-This project was created using `bun init` in bun v1.0.1. [Bun](https://bun.sh) is a fast all-in-one JavaScript runtime.
